@@ -1,4 +1,4 @@
-import "./index.css";
+import "../index.css";
 
 export default function Result({ rate }) {
   return (
@@ -6,7 +6,7 @@ export default function Result({ rate }) {
       <div className="result-div">
         <img
           className="thank-you-image"
-          src="../images/illustration-thank-you.svg"
+          src="/images/illustration-thank-you.svg"
           alt="image"
         />
         <div className="rate-text">

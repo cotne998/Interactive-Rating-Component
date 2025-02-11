@@ -6,11 +6,7 @@ export default function Container({ setSubmit, rate, setRate }) {
   return (
     <section className="container">
       <div className="star-div">
-        <img
-          className="star-img"
-          src="../images/icon-star.svg"
-          alt="star icon"
-        />
+        <img className="star-img" src="/images/icon-star.svg" alt="star icon" />
       </div>
       <div className="information-div">
         <h1>How did we do?</h1>
