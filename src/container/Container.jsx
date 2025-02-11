@@ -1,5 +1,4 @@
 import "./container.css";
-import { useState } from "react";
 
 export default function Container({ setSubmit, rate, setRate }) {
   const buttons = [1, 2, 3, 4, 5];
